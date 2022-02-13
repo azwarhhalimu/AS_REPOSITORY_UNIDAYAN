@@ -12,7 +12,7 @@ public class Pg_list_repository_koleksi {
                 "    <link rel=\"stylesheet\" href=\"bootstrap.min.css\" />\n" +
                 "    <title>Document</title>\n" +
                 "    <style>\n" +
-                " html body{use-select:none}"+
+                " html body{user-select:none}"+
                 "      .kard {\n" +
                 "        opacity: 0.9;\n" +
                 "        box-shadow: 0px 0px 21px 0px rgba(158, 156, 156, 0.75);\n" +

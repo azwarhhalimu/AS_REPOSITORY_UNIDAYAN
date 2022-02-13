@@ -22,7 +22,7 @@ public class Pg_lihat_repository {
                 "    <title>Document</title>\n" +
                 "    <link rel=\"stylesheet\" href=\"bootstrap.min.css\" />"+
                 "    <style>\n" +
-                " html body{use-select:none}"+
+                " html body{user-select:none}"+
                 "      html body {\n" +
                 "        padding: 0px;\n" +
                 "        margin: 0px;\n" +

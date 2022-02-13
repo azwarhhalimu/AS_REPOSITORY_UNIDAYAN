@@ -12,7 +12,7 @@ public class Pg_jurusan
                 "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n" +
                 "    <title>Document</title>\n" +
                 "    <style>\n" +
-                " html body{use-select:none}"+
+                " html body{user-select:none}"+
                 "      html body {\n" +
                 "        padding: 0px;\n" +
                 "        margin: px;\n" +

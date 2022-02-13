@@ -11,7 +11,7 @@ public class Pg_fakultas {
                 "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n" +
                 "    <title>Document</title>\n" +
                 " <style>\n" +
-                " html body{use-select:none}"+
+                " html body{user-select:none}"+
                 "      #clink{\n" +
                 "        opacity: 1;\n" +
                 "      }\n" +

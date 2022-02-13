@@ -12,6 +12,7 @@ public class Pg_koleksi {
                 "    <title>Document</title>\n" +
                 "    <link rel=\"stylesheet\" href=\"bootstrap.min.css\" />\n" +
                 "<style>\n" +
+                "html body{user-select:none;}"+
                 "      #list {\n" +
                 "        opacity: 1;\n" +
                 "      }\n" +
