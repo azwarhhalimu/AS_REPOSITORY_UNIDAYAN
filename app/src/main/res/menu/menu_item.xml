@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/beranda"
+        android:icon="@drawable/ic_beranda"
+        android:title="Beranda"
+        />
+    <item android:id="@+id/koleksi"
+        android:icon="@drawable/ic_folder"
+        android:title="Koleksi"
+        />
+    <item android:id="@+id/fakultas"
+        android:icon="@drawable/ic_share"
+        android:title="Fakultas"
+        />
+    <item android:id="@+id/subjek"
+        android:icon="@drawable/ic_subjek"
+        android:title="Subjek"
+        />
+<!--    <item android:id="@+id/favorit"-->
+<!--        android:icon="@drawable/ic_love"-->
+<!--        android:title="Favorit"-->
+<!--        />-->
+</menu>

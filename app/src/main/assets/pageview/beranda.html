@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper/dist/css/swiper.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+      html body {
+        user-select: none;
+      }
+
+      body {
+        background: rgb(255, 255, 255);
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        color: rgb(123, 123, 123);
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-container {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+
+      .swiper-slide {
+        border: 1px solid #dfdfdf;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        width: 60%;
+        height: 100px;
+      }
+
+      .swiper-slide.c {
+        height: 100px;
+      }
+
+      .c:first-child {
+        margin-left: 15px;
+      }
+      #list {
+        margin-bottom: 20px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="background: #3366ff; color: #fff; padding: 15px">
+      <div>Senin 25 Desember 2012</div>
+      <h3 style="margin-top: 0px">Halo, Selamant Pagi</h3>
+      <br />
+      <div style="font-size: 19px; font-weight: bold">Temukan ribuan karya tulis ilmiah Universitas Dayanu Ikshanuddin</div>
+      <div style="height: 70px"></div>
+    </div>
+
+    <div style="width: 90%; border: 1px solid #dfdfdf; padding: 10px; margin: auto; background: #fff; margin-top: -50px; border-radius: 10px">
+      <div style="font-weight: bold; font-size: 14">Masukkan pencarian</div>
+      <input type="text" class="btn btn-block btn-outline-light" style="border: 1px solid #dfdfdf; color: #dfdfdf" placeholder="Cari karya tulis..." />
+      <button class="btn btn-primary btn-block" style="border-radius: 40px">Cari</button>
+    </div>
+
+    <div style="font-weight: bold">
+      <br />
+      <marquee>Selamat Datang Di E-Repository Universitas Dayanu Ikshanuddin Kota Baubau</marquee>
+    </div>
+    <br />
+
+    <!-- Swiper -->
+    <div class="swiper-container swiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="font-size: 12px; background-size: cover; background: #b5deff; text-align: left; padding: 10px">
+          <div style="font-weight: bold; font-size: 11px; height: 50px">Sistim Penunjang Keputasan Data Preseintng 3 Buah</div>
+          <div style="font-size: 10px">12 Desember 2022</div>
+          <div style="font-size: 10px; text-align: right">Tugas Akhir</div>
+        </div>
+        <div class="swiper-slide" style="font-size: 12px; background-size: cover; background: #f6ae99; text-align: left; padding: 10px">
+          <div style="font-weight: bold; font-size: 11px; height: 50px">Sistim Penunjang Keputasan Data Preseintng 3 Buah</div>
+          <div style="font-size: 10px">12 Desember 2022</div>
+          <div style="font-size: 10px; text-align: right">Tugas Akhir</div>
+        </div>
+        <div class="swiper-slide" style="font-size: 12px; background-size: cover; background: #dad0c2; text-align: left; padding: 10px">
+          <div style="font-weight: bold; font-size: 11px; height: 50px">Sistim Penunjang Keputasan Data Preseintng 3 Buah</div>
+          <div style="font-size: 10px">12 Desember 2022</div>
+          <div style="font-size: 10px; text-align: right">Tugas Akhir</div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <br />
+    <div style="font-weight: bold; margin-left: 15px; margin-bottom: 10px; margin-top: 10px">Karya Tulis Populer</div>
+    <div class="swiper-container swiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide c" style="width: 150px; border: none">
+          <div style="background: #4d5e93; height: 20px; width: 40%; margin-bottom: -8px; border-radius: 5px 5px 0 0; font-size: 7px; color: #fff">Tugas Akhir</div>
+          <div style="height: 87%; width: 100%; background: #3366ff; border-radius: 10px">
+            <div style="color: white; padding: 5px; font-size: 8px; text-align: justify">
+              Kajian Yuridis Terhadap Putusan Pengadilan Negeri Kisaran No. 508/Pid.Sus-LH/2016/PN.Kis Mengenai Galian C Dalam Perspektif Tindak Pidana Llingkungan Hidup
+            </div>
+            <div style="font-weight: bold; color: white; padding-left: 5px; font-size: 8px; text-align: left">Abstrak</div>
+          </div>
+        </div>
+        <div class="swiper-slide c" style="width: 150px; border: none">
+          <div style="background: #4d5e93; height: 14px; width: 20%; margin-bottom: -8px; border-radius: 5px 5px 0 0"></div>
+          <div style="height: 90%; width: 100%; background: #3366ff; border-radius: 10px">
+            <div style="color: white; padding: 5px; font-size: 8px; text-align: justify">
+              Kajian Yuridis Terhadap Putusan Pengadilan Negeri Kisaran No. 508/Pid.Sus-LH/2016/PN.Kis Mengenai Galian C Dalam Perspektif Tindak Pidana Llingkungan Hidup
+            </div>
+            <div style="font-weight: bold; color: white; padding-left: 5px; font-size: 8px; text-align: left">Abstrak</div>
+          </div>
+        </div>
+        <div class="swiper-slide c" style="width: 150px; border: none">
+          <div style="background: #4d5e93; height: 14px; width: 20%; margin-bottom: -8px; border-radius: 5px 5px 0 0"></div>
+          <div style="height: 90%; width: 100%; background: #3366ff; border-radius: 10px">
+            <div style="color: white; padding: 5px; font-size: 8px; text-align: justify">
+              Kajian Yuridis Terhadap Putusan Pengadilan Negeri Kisaran No. 508/Pid.Sus-LH/2016/PN.Kis Mengenai Galian C Dalam Perspektif Tindak Pidana Llingkungan Hidup
+            </div>
+            <div style="font-weight: bold; color: white; padding-left: 5px; font-size: 8px; text-align: left">Abstrak</div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <br />
+    <div style="font-weight: bold; margin-left: 15px; margin-bottom: 10px; margin-top: 10px">Karya Tulis Terbaru</div>
+    <div style="padding: 15px">
+      <div style="border: 1px solid #dfdfdf; padding: 0px">
+        <table width="100%" style="margin: 0px">
+          <tr>
+            <td width="3px" style="background: #dfdfdf"></td>
+            <td style="padding: 10px">
+              <div style="font-weight: bold">Kami datang membawa mereka bersama dengan orang</div>
+              <div>23 September 2014</div>
+              <div style="font-size: 10px">Fakultas Teknik . Jurusan informaatik</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="border: 1px solid #dfdfdf; padding: 0px; margin-top: 5px; border-radius: 3px">
+        <table width="100%" style="margin: 0px">
+          <tr>
+            <td width="3px" style="background: #dfdfdf"></td>
+            <td style="padding: 10px">
+              <div style="font-weight: bold">Kami datang membawa mereka bersama dengan orang</div>
+              <div>23 September 2014</div>
+              <div style="font-size: 10px">Fakultas Teknik . Jurusan informaatik</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="border: 1px solid #dfdfdf; padding: 0px; margin-top: 5px; border-radius: 3px">
+        <table width="100%" style="margin: 0px">
+          <tr>
+            <td width="3px" style="background: #dfdfdf"></td>
+            <td style="padding: 10px">
+              <div style="font-weight: bold">Kami datang membawa mereka bersama dengan orang</div>
+              <div>23 September 2014</div>
+              <div style="font-size: 10px">Fakultas Teknik . Jurusan informaatik</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="border: 1px solid #dfdfdf; padding: 0px; border-radius: 3px">
+        <table width="100%" style="margin: 0px">
+          <tr>
+            <td width="3px" style="background: #dfdfdf"></td>
+            <td style="padding: 10px">
+              <div style="font-weight: bold">Kami datang membawa mereka bersama dengan orang</div>
+              <div>23 September 2014</div>
+              <div style="font-size: 10px">Fakultas Teknik . Jurusan informaatik</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="swiper/dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper1", {
+        pagination: ".swiper-pagination",
+        slidesPerView: "auto",
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 15,
+        loop: true,
+      });
+      var swiper2 = new Swiper(".swiper2", {
+        slidesPerView: "auto",
+        centeredSlides: false,
+        spaceBetween: 15,
+        loop: false,
+      });
+    </script>
+  </body>
+</html>

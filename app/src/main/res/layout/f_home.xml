@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:background="#3366FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:cropToPadding="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/logo"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Repository Unidayan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.example.repositoriunidayan.widget.PageView
+        android:visibility="gone"
+        android:id="@+id/pageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/no_internet"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/no_internet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Oppszzz..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:text="Terjadi kesalahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAlignment="center"
+            android:text="Periksa sambungan internet anda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/coba_lagi"
+            android:textAllCaps="false"
+            android:text="Coba Lagi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
