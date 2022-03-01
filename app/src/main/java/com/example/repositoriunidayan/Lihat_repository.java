@@ -49,7 +49,7 @@ public class Lihat_repository extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(), Lihat_pdf.class);
-                intent.putExtra("id_repostory", getIntent().getStringExtra("id_repository"));
+                intent.putExtra("id_repository", getIntent().getStringExtra("id_repository"));
                 startActivity(intent);
             }
         });

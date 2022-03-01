@@ -7,14 +7,43 @@
     android:layout_height="match_parent"
     tools:context=".Lihat_pdf">
     <androidx.appcompat.widget.Toolbar
+        android:elevation="9dp"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
             android:textStyle="bold"
-            android:text="Lihat Pdf"
+            android:text=""
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </androidx.appcompat.widget.Toolbar>
-
+    <com.example.repositoriunidayan.widget.Pdf_view
+        android:visibility="gone"
+        android:id="@+id/pdf_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/loading"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/pdf"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Harap tunggu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAlignment="center"
+            android:text="Sedang membuka file pdf..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 </LinearLayout>
